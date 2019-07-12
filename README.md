@@ -1,4 +1,4 @@
-# Tmux-Jridley-Dracula
+# Literal Eyecandy
 
 Move past the 16th century and make your terminal look like candy.
 Very eye satsifying.
