@@ -32,7 +32,7 @@ sed -i 's/magenta/white/1' /root/.oh-my-zsh/themes/jtriley.zsh-theme
 chsh -s /bin/zsh
 echo "bash -c zsh" > /root/.bashrc
 
-yes 34 | bash -c  "$(wget -qO- https://git.io/vQgMr)"
+printf '35\ny' | bash -c  "$(wget -qO- https://git.io/vQgMr)"
 
 source /root/.zshrc
 source /root/.bashrc
