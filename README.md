@@ -12,5 +12,3 @@ Very eye satsifying.
 #### How?
 Run the script as root in either iTerm, xfce-terminal, or gnome-terminal.
 ### Make sure both these things are satisfied
-
-## Major credit to @bchen p@n1ckn1f3
