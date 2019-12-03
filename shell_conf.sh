@@ -24,10 +24,10 @@ git clone https://github.com/powerline/fonts /root/fonts
 /root/fonts/install.sh
 
 curl -L http://install.ohmyz.sh | sh
-sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="jtriley"/' /root/.zshrc
-sed -i 's/white/red/1' /root/.oh-my-zsh/themes/jtriley.zsh-theme
-sed -i 's/white/blue/1' /root/.oh-my-zsh/themes/jtriley.zsh-theme
-sed -i 's/magenta/white/1' /root/.oh-my-zsh/themes/jtriley.zsh-theme
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="jtriley"/' ~/.zshrc
+sed -i 's/white/red/1' ~/.oh-my-zsh/themes/jtriley.zsh-theme
+sed -i 's/white/blue/1' ~/.oh-my-zsh/themes/jtriley.zsh-theme
+sed -i 's/magenta/white/1' ~/.oh-my-zsh/themes/jtriley.zsh-theme
 
 chsh -s /bin/zsh
 echo "bash -c zsh" > /root/.bashrc
